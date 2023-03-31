@@ -36,7 +36,7 @@ nav {
   float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  background:#C2FAA2;
   padding: 20px;
 }
 
@@ -63,10 +63,10 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: gray;
   padding: 10px;
   text-align: center;
-  color: Light teal;
+  color:pink;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
@@ -89,8 +89,8 @@ footer {
 <section>
   <nav>
     <ul>
-<li><a href="http://www.cardigans.com/">Album cover</a></li>
-      <li><a href="">LINK 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=HToa3Qwsbzk"target="_blank">What's the use of felling blue?</a></li>
+      <li><a href="https://www.youtube.com/watch?v=u6m0ymy2oFk"target="_blank">Chrismas kids</a></li>
       <li><a href="#">LINK 3</a></li>
     </ul>
   </nav>
@@ -100,7 +100,7 @@ footer {
     <p>My name is Ariana!  </p>
     <p>I like to draw and my favorite color is blue and green and Yellow.</p>
      <p>I enjoy catfishing people as an old white woman.</p>
-      <p>Im 5'2 and sizes 8-10 1/2 in a shoes.</p>
+      <p>Im 5'2 and sizes 8-10 1/2 in all shoes.</p>
   </article>
 </section>
 
