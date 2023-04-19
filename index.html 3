@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Chang your title here! -->
+<title>YOUR TITLE GOES HERE</title>
+<!-- DO NOT CHANGE ANY OF THIS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Here is your stylesheet -->
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the header */
+header {
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg337lkQblrSaPZDrhLEQkHRTRmKUGnzgh8_montXnqQ&s);
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: pink;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  background:#C2FAA2;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+  color: Light teal;
+  color:pink;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens DO NOT CHANGE THIS! */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>Me!</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+<li><a href="http://www.cardigans.com/"target="_blank">The Cardigans Website</a></li>
+      <li><a href="https://www.youtube.com/watch?v=R7IQ9dpxxJY"target="_blank">I Cant Handle Change</a></li>
+<li><a href="https://www.youtube.com/watch?v=HToa3Qwsbzk"target="_blank">What's The Use Of Felling,Blue?</a></li>
+      <li><a href="https://www.youtube.com/watch?v=u6m0ymy2oFk"target="_blank">Chrismas Kids</a></li>
+      <li><a href="https://www.youtube.com/watch?v=Ussqi3nagrQ"target="_blank">It's Over,Isn't?</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Ariana</h1>
+    <p>My name is Ariana!  </p>
+    <p>I like to draw and my favorite color is blue and green and Yellow.</p>
+     <p>I enjoy catfishing people as an old white woman.</p>
+      <p>Im 5'2 and sizes 8-10 1/2 in a shoes.</p>
+      <p></p>
+  </article>
+  </section>
